@@ -1,0 +1,117 @@
+.container1{
+    position:relative;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    padding:50px;
+    background-image:url(./assets/images/sunrise.webp);
+    background-size: 100% 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1%;
+}
+.container1 > h1 {
+    color:#FFF1DB;
+    font-family: "Dancing Script",cursive;
+    font-size:110px;
+    font-weight:600;
+    margin:20px;
+}
+.container1 > h2 {
+    color: #FFF1DB;
+    font-family: "Noto Sans",sans-serif;
+    font-weight:300;
+    font-size:50px
+}
+.container2{
+    height:80vh;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    gap:10px;
+}
+.container2 > img{
+    width:200px;
+    height:200px;
+    border-radius: 100%;
+}
+.container2 > h2{
+    font-style: "Noto Sans",sans-serif;
+    font-size:50px;
+    font-weight:500;
+    color:#180161;
+}
+.container2 > div > p{
+    font-size:20px;
+    text-align: center;
+}
+.container3{
+    height:90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap:20px
+}
+.container3 > div{
+    width:60%;
+}
+.container3 > div > img{
+    width:200px;
+    height:200px;
+    float: left;
+    padding-right: 5px;
+}
+.container3 > h2{
+    font-style: "Noto Sans",sans-serif;
+    font-size:50px;
+    font-weight:500;
+    color:#180161;
+}
+.container3 > div > p{
+    font-size:20px;
+    text-align: center;
+}
+.container4{
+    height: 80vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+.container4 > h2{
+    font-style: "Noto Sans",sans-serif;
+    font-size:50px;
+    font-weight:500;
+    color:#180161;
+}
+.container4 > p{
+    font-size:20px;
+    text-align: center;
+}
+.container4 > button{
+    width:200px;
+    height: 30px;
+    background-color:#3d47d4;
+    color: #FFF1DB;
+}
+.container4 > button[onhover=true]{
+    background-attachment: red;
+}
+.container5{
+    background-color: #180161;
+    height:10vh;
+    color:#FFF1DB;
+    text-align: center;
+}
+.container5 > p{
+    position: relative;
+    top:5vh;
+}
+@media (max-width:500px) {
+    .container2{
+        margin-bottom:20px;
+    }
+}
